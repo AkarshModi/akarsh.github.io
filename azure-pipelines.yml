@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- gh-pages
 
 pool:
   vmImage: ubuntu-latest
