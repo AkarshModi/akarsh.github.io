@@ -25,7 +25,7 @@ steps:
              git config --global user.email "akarsh.modi@gmail.com"
              git config --global user.name "Test Checkin"
              git add .
-             git commit -m "Documentation generated and committed to gh-pages ***NO_CI***"
+             git commit -m "Documentation generated and committed to gh-pages"
              git remote set-url --push origin git@github.com:akarshmodi/akarsh.github.io.git
              git push origin gh-pages
           displayName: Commit and push
