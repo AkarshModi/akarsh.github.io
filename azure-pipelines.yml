@@ -15,6 +15,7 @@ steps:
             knownHostsEntry: ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
             sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDeMbYzFFKn1TSag8ZxdpQj5wyfuVhAdCzBR7vE4P6Ga5c4Goyirl2uPsF/mk7bL7BiNCPkpSe2NiSjZb5y42MHnoee1dn4xeyF4Rl2+UcmxiZJSMmbnzuepHCbZkklbF9wKXKSyhO9COtm54jd5aN2mkoaFvFALTW9f7rH5R3iEoUqC4bxt2TgShnXypHTHhv33P2r7HC24b0sErRFkqwnGRQkCLKBuZNfXbgo/3mtSnUno0aB8BVP50hGT1QMJ3r9VHuuNHLOUDBl1C9g+5hWaz/9YvVD0YDaBmK1mcS6ZHS9gqVGH1Gh3Fw/FjdI8AFmegRm6DZ5fG4GHSQG9F/OXwPOeeyvdKgOh5v5xjAWweGs8BhLX8plJa53f0LtCULA/+a7Stlng1cVyJAXC5pyOI7Ni9csXXfI7zTj4sT5xsPLRIdit0VMB3lSyxchmZojhcKQVOUFyotrJSJLulNuRvU7ydYE4NzTUQaK8+ZvDE+GUPP9iBuAix/IwljbRuU= auth\akarshmo@AKARSHMO1
             sshKeySecureFile: 'id_rsa'
+          displayName: Connecting via SSH
          
         - bash: |
            git checkout gh-pages
