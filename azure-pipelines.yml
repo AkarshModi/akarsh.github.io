@@ -1,0 +1,23 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+         - bash: |
+             git checkout gh-pages
+           displayName: Switch to documentation branch
+         
+         - bash: |
+             git config --global user.email "akarsh.modi@gmail.com"
+             git config --global user.name "Test Checkin"
+             git add .
+             git commit -m "Documentation generated and committed to gh-pages"
+             git push origin gh-pages
+           displayName: Commit and push
