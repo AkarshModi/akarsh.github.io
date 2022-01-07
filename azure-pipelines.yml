@@ -20,7 +20,8 @@ steps:
         - bash: |
            git checkout gh-pages
           displayName: Switch to documentation branch
-         
+        - bash: |
+          echo "While I thought that I was learning how to live, I have been learning how to die." > readme.md
         - bash: |
              git config --global user.email "akarsh.modi@gmail.com"
              git config --global user.name "Test Checkin"
