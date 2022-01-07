@@ -21,7 +21,7 @@ steps:
            git checkout gh-pages
           displayName: Switch to documentation branch
         - bash: |
-             echo "Whisadflse sI thought that I was learning how to live, I have been learning how to die." > readme.md
+             echo "Whisadflse sI thought that I was learning how to live, I have been learning how to die." > README.md
         - bash: |
              git config --global user.email "akarsh.modi@gmail.com"
              git config --global user.name "Test Checkin"
