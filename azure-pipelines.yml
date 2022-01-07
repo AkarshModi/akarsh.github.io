@@ -21,3 +21,4 @@ steps:
              git commit -m "Documentation generated and committed to gh-pages"
              git push origin gh-pages
            displayName: Commit and push
+
