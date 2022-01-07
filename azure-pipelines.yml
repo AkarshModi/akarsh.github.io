@@ -18,7 +18,7 @@ steps:
          
         - bash: |
            git checkout gh-pages
-           displayName: Switch to documentation branch
+          displayName: Switch to documentation branch
          
         - bash: |
              git config --global user.email "akarsh.modi@gmail.com"
